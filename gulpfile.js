@@ -62,3 +62,9 @@ gulp.task('default', ['jshint', 'sass', 'watch']);
 
 // Build task
 gulp.task('build', ['jshint', 'sass', 'html', 'scripts', 'styles', 'images']);
+
+gulp.task('sass', function () {
+    gulp.src('./scss/.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('./css'));
+});

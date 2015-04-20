@@ -7,11 +7,10 @@ nav {
   padding:0;
   border:0;
   background-size:100%, 100%, auto;
-  position:fixed;
   top:0;
   z-index:99999;
 
-ul{
+}ul{
     display: inline-block;
     padding-right: 5em;
     padding-top:1em;
@@ -22,9 +21,11 @@ ul{
   }
 }
 
-header {
-  padding-top:6em;
+h1 {
+  padding-top:15em;
 }
-div {
-  background-color:#5858FA
+
+body, div {
+  background-color:#58FAF4; 
+  font-family: 'Press Start 2P', cursive;
 }

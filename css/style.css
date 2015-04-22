@@ -29,3 +29,21 @@ body, div {
   background-color:#58FAF4; 
   font-family: 'Press Start 2P', cursive;
 }
+@media screen and (max-width:980px){
+
+#wrap {
+ width:95%;
+}
+}
+@media screen and (max-width: 480px) {
+
+  html {
+    -webkit-text-size-adjust: none;
+  }
+
+  nav a {
+    font-size: 90%;
+    padding: 10px 8px;
+  }
+
+}

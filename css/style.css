@@ -1,3 +1,22 @@
+@media all and (min-width:48em){
+
+#wrap {
+ width:95%;
+}
+}
+@media screen and (min-width: 80em) {
+
+  html {
+    -webkit-text-size-adjust: none;
+  }
+
+  nav a {
+    font-size: 90%;
+    padding: 10px 8px;
+  }
+
+}
+
 nav {
   width: 100%;
   background-color:#2EFE2E;
@@ -29,21 +48,13 @@ body, div {
   background-color:#58FAF4; 
   font-family: 'Press Start 2P', cursive;
 }
-@media screen and (max-width:980px){
 
 #wrap {
- width:95%;
+  width:80em;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
 }
-}
-@media screen and (max-width: 480px) {
-
-  html {
-    -webkit-text-size-adjust: none;
-  }
-
-  nav a {
-    font-size: 90%;
-    padding: 10px 8px;
-  }
-
-}
+.start-playing{
+  padding-top: 2em;
+} 

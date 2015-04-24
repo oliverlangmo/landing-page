@@ -29,15 +29,22 @@ nav {
   top:0;
   z-index:99999;
 
-}ul{
+}
+ul{
     display: inline-block;
     padding-right: 5em;
     padding-top:1em;
-}a{
+}
+a{
     color:white;
-}li{
+    text-decoration: none;
+}
+li{
     width:80%;  
   }
+a:hover{
+  text-decoration: underline;
+}  
 }
 
 h1 {

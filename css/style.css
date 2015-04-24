@@ -61,6 +61,7 @@ body, div {
   text-align: center;
   padding-left: 3em;
   padding-right: 3em;
+  margin:0 auto;
 }
 .start-playing{
   padding-top: 2em;

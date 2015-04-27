@@ -66,3 +66,7 @@ body, div {
 .start-playing{
   padding-top: 2em;
 } 
+
+.intro,.features,.start-playing,p{
+margin: 5em;
+}

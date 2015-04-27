@@ -13,9 +13,11 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-        <script src="https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js"></script>
-        <script src="js/landing.js"></script>
+
+
+<script type="text/javascript" src="https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js"></script>
+
+
     </head>
 <body>
 	<div id="wrap">
@@ -28,15 +30,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	<nav>
-		<ul class="li">
-			<a href="#">Nest</a>
-		</ul>
-		<ul class="li">
-			<a href="#">About</a>
-		</ul>
-		<ul class="li">
-			<a href="#">Chirp</a>
-		</ul>
+		
 	</nav>
 	<header>
 		<h1>The most fun and addictive game EVER! Get the App everyone wants!</h1>
@@ -48,12 +42,12 @@
 		<div>
 			<h2>Fun, challenging and addictive gameplay</h2>
              <p>Are you up to the challenge?</p>
-             <img src="img/tinybird.jpg">
+             <img class="bird" src="img/tinybird.jpg">
 		</div>
 		<div>
 			<h2>See how you stack up on the online leaderboard</h2>
 			<p>Challenge your friends and the online community</p>
-			<img src="img/tinybird.jpg">
+			<img id="dummy" src="img/tinybird.jpg">
 		</div>
 		<div>
 			<h2>How far can you get?</h2>
@@ -81,5 +75,11 @@
 	</footer>
 				
 </div>	
+
+<script type="text/javascript">
+  Velocity(document.getElementById("dummy"), { opacity: 0.5 }, { duration: 1000 });
+</script>
+
+
 </body>
 </html>

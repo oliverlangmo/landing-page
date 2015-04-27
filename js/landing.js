@@ -1,1 +1,1 @@
-$('h1').velocity("fadeIn", {duration: 75})
+$("h1").velocity("fadeIn", {duration: 75})
